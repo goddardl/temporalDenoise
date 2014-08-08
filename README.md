@@ -1,5 +1,5 @@
-Temporal Denoise
-================
+Temporally-informed Image Denoise
+=================================
 
 The Temporal Denoise project is supplementary material for the Siggraph 2014 talk: "Silencing the noise on Elysium".
 
