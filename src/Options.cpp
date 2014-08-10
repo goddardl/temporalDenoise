@@ -43,10 +43,10 @@ static void helpMessage( std::string name )
 			  << "\t\t\t\tBe aware that when the smart blur is fully on, the \"contribution\" weight will have no effect." << std::endl
 			  << "\t-bm, --blurMode X\tSpecifies the type of smart blur used by the algorithm. 0: Agressive, 1: Regular." << std::endl
 			  << "\t\t\t\tThe default is \"Aggressive\" as the effect can always be attenuated using the contribution parameter." << std::endl
-              << "\t-k, --opt.kernelWidth X\tSets the width of the spatial filtering kernel. Must be an odd number." << std::endl
+              << "\t-k, --kernelWidth X\tSets the width of the spatial filtering kernel. Must be an odd number." << std::endl
               << "\t-c, --contribution X\tIncreases the value range of local pixels that can contribute to the filtered result." << std::endl
 			  << "\t\t\t\tThe contribution weight will have no effect if the blur has a value of 1." << std::endl
-              << "\t-s, --opt.startFrame X\tAllows the start frame that will be used from the sequence to be specified. Note that the" << std::endl
+              << "\t-s, --startFrame X\tAllows the start frame that will be used from the sequence to be specified. Note that the" << std::endl
 			  << "\t\t\t\tsequence will loop if the number of required images extends past those which are available." << std::endl
 			  << "\t\t\t\tBy increasing this value, high frequency noise that is present in the filtered image which is the result of" << std::endl
 			  << "\t\t\t\tundersampling in the render is reduced." << std::endl
